@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;springmvc&apos;&#x0D;&#x0A;- Original project: &apos;springmvc&apos;&#x0D;&#x0A;- Original element: &apos;springmvc/src/main/java/com.springmvc.dao&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springmvc.dao" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springmvc" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1683202482821" subPackages="false" version="1.0"/>
-</session>

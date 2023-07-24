@@ -1,7 +1,0 @@
-package productcrudapp.dao;
-
-import org.springframework.orm.hibernate5.HibernateTemplate;
-
-public class ProductDao {
-	private HibernateTemplate hibernateTemplate;
-}
