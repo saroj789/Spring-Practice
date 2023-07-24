@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  
+  xmlns:p="http://www.springframework.org/schema/p"
+  
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+  
+  
+	  <!-- using p schema -->
+	  <bean class="com.springcore.Student" name="student1" p:studentId="123" p:studentName="Raaj" p:studentAddress="Mumbai"  />
+
+
+
+
+  	<!-- 
+	  <bean class="com.springcore.Student" name="student3">
+	  	<property name="studentId" value="2232" />
+	  	<property name="studentName" value="Saroj"/>
+	  	<property name="studentAddress" value="Saroj" />
+	  </bean>
+	 -->
+	 
+	 <!--
+	 <bean class="com.springcore.Student" name="student4">
+	  	<property name="studentId">
+	  		<value>2232</value>
+	  	</property>
+	  	<property name="studentName">
+	  		<value>Saroj</value>
+	  	</property>
+	  	<property name="studentAddress">
+	  		<value>Delhi</value>
+	  	</property>
+	  </bean>
+	 -->
+	 
+	  
+	<!-- LIST 
+	  <bean class="com.springcore.Student" name="student4">
+	  	<property name="studentId" >
+	  		<list>
+		  		<value>2232</value>
+		  		<value>2232</value>
+		  		<value>2232</value>
+	  		<list/>
+	  	</property>
+	  </bean>
+	-->
+	
+	<!-- SET 
+	  <bean class="com.springcore.Student" name="student4">
+	  	<property name="studentId">
+	  		<set>
+		  		<value>2232</value>
+		  		<value>2232</value>
+		  		<value>2232</value>
+	  		<set/>
+	  	</property>
+	  </bean>
+	-->
+	
+	<!-- MAP 
+	  <bean class="com.springcore.Student" name="student4">
+	  	<property name="studentId" >
+	  		<map>
+		  		<entry key="1"   value="saroj" />
+		  		<entry key="2"   value="raaj" />
+		  		<entry key="3"   value="sid" />
+	  		<map/>
+	  	</property>
+	  </bean>
+	-->
+	
+	
+	<!-- Properties 
+	  <bean class="com.springcore.Student" name="student4">
+	  	<property name="studentId" >
+	  		<props>
+		  		<prop key="name" >   saroj" <prop/>
+		  		<prop key="address"> Mumbai <prop/>
+		  		<prop key="company" > Newgen  <prop/>
+	  		<props/>
+	  	</property>
+	  </bean>
+	-->
+ 
+</beans>

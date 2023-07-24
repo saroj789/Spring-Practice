@@ -1,0 +1,10 @@
+package productcrudapp.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+public class ProductDao {
+	
+	@Autowired
+	private HibernateTemplate hibernateTemplate;
+}

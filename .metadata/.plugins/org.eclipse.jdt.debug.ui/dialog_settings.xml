@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="74"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="648"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="82"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.spring.orm{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/java&amp;lt;com.spring.orm{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/C:\/Users\/saroj.vaishya\/.m2\/repository\/junit\/junit\/3.8.1\/junit-3.8.1.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/junit=/=/maven.artifactId=/junit=/=/maven.version=/3.8.1=/=/maven.scope=/test=/&amp;lt;junit.textui(TestRunner.class[TestRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/C:\/Users\/saroj.vaishya\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.14.Final\/hibernate-core-5.6.14.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.14.Final=/=/maven.scope=/compile=/&amp;lt;org.hibernate(Version.class[Version&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springorm/C:\/Users\/saroj.vaishya\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.14.Final\/hibernate-core-5.6.14.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.14.Final=/=/maven.scope=/compile=/&amp;lt;org.hibernate.internal.util.collections(ArrayHelper.class[ArrayHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=springhibernate/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.spring.hibernate{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="36"/>
+			<item key="DIALOG_Y_ORIGIN" value="39"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  
+  xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:c="http://www.springframework.org/schema/c" 
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+  
+  
+  <!-- Enable all anotation  -->
+  
+  <context:annotation-config />
+  
+  	 <!-- you can use c schema -->
+ 	<bean class="com.springcore.lifecycle.Samosa" name="s1" p:price="10" init-method="init" destroy-method="destroy" />
+ 	
+ 	<!-- Implementing bean life cycle using interfaces -->
+ 	<bean class="com.springcore.lifecycle.Pepsi" name="p1" p:price="40.00" />
+
+	<!-- using anotation -->
+	<bean class="com.springcore.lifecycle.Example" name="e1" p:subject="DBMS" />
+	
+ 
+</beans>

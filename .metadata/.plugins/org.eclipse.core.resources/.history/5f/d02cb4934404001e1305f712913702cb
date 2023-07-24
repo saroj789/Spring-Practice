@@ -1,0 +1,5 @@
+package springweb.controller;
+
+public class HomeController {
+
+}
